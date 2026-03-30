@@ -1,6 +1,6 @@
 # [CHECKLIST TYPE] Checklist: [FEATURE NAME]
 
-**Purpose**: [Brief description of what this checklist covers]
+**Purpose**: Verify that the feature fits the 2D Pokémon fighting-game constitution.
 **Created**: [DATE]
 **Feature**: [Link to spec.md or relevant documentation]
 
@@ -20,17 +20,23 @@
   ============================================================================
 -->
 
-## [Category 1]
+## Constitution Gates
 
-- [ ] CHK001 First checklist item with clear action
-- [ ] CHK002 Second checklist item
-- [ ] CHK003 Third checklist item
+- [ ] CHK001 Feature preserves the local one-on-one battle loop.
+- [ ] CHK002 Combat behavior is deterministic for the same inputs.
+- [ ] CHK003 Any gameplay change has an automated test.
 
-## [Category 2]
+## Scope and Content
 
-- [ ] CHK004 Another category item
-- [ ] CHK005 Item with specific criteria
-- [ ] CHK006 Final item in this category
+- [ ] CHK004 Feature stays offline and local-first unless explicitly required.
+- [ ] CHK005 Feature does not add online play, matchmaking, persistence, or other out-of-scope systems.
+- [ ] CHK006 Assets and content are original or properly licensed.
+
+## Gameplay Quality
+
+- [ ] CHK007 Movement, attack, and hit-reaction behavior are clear and testable.
+- [ ] CHK008 Match start, win/lose, and restart flows still work.
+- [ ] CHK009 Any balance or bug change includes a regression test when practical.
 
 ## Notes
 

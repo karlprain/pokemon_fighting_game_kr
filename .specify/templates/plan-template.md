@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] Core battle loop remains playable: start match, fight, win/lose, restart
+- [ ] Combat rules are deterministic and testable from the same inputs
+- [ ] A test plan exists for every gameplay, combat, or state-machine change
+- [ ] Scope stays minimal: no online play, matchmaking, or persistence unless approved
+- [ ] Assets and content are original or properly licensed
 
 ## Project Structure
 
